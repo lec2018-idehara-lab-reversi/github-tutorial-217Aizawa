@@ -9,7 +9,6 @@ void setup()
 void draw()
 {
   for(int r = 1;r >= 255; r+=10){
-    
    background(r,255,255); 
   }
 }

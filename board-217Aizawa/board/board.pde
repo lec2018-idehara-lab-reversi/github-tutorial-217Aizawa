@@ -52,11 +52,11 @@ void showBan(int[][] b)
           break;
         case KURO:
         fill(0);
-        ellipse(round(80*x-40),round(80*y-40),72,72);
+        ellipse(round(CELLSIZE*(x-0.5)),round(CELLSIZE*(y-0.5)),STONESIZE,STONESIZE);
           break;
         case SHIRO:
         fill(255);
-        ellipse(round(80*x-40),round(80*y-40),72,72);
+        ellipse(round(CELLSIZE*(x-0.5)),round(CELLSIZE*(y-0.5)),STONESIZE,STONESIZE);
           break;
       }
     }
